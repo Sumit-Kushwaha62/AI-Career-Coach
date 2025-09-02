@@ -99,7 +99,7 @@ git clone https://github.com/Sumit-Kushwaha62/AI-Career-Coach.git
 cd AI-Career-Coach
 
 ```
-### 2. Install dependencies
+#### 2. Install dependencies
 
 ```
 npm install
@@ -121,4 +121,6 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 GEMINI_API_KEY=
 ```
+### 📬 Contact
+For any queries, feedback, or collaboration opportunities, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sumit-kushwaha-83b608357/).
 
