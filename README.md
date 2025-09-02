@@ -1,5 +1,110 @@
 # Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI 🔥🔥
 
+
+### Features:
+
+```
+🔐 Authentication & Authorization with Clerk
+
+⚡ Event-driven workflows & background jobs using Inngest
+
+🗄️ Scalable & serverless PostgreSQL database with Neon
+
+🛠️ Database modeling & migrations with Prisma ORM
+
+🎨 Beautiful and accessible UI components via shadcn/ui + TailwindCSS
+
+🌐 Deployed on Vercel for fast, reliable hosting
+```
+
+
+### Tech Stack
+```
+
+Frontend: Next.js, React, TailwindCSS, shadcn/ui
+
+Backend: Next.js API routes, Inngest event handlers
+
+Database: Neon (Serverless PostgreSQL) + Prisma ORM
+
+Authentication: Clerk (User sign-in, sign-up, session management)
+
+Hosting: Vercel
+
+```
+
+### Core Integrations
+```
+1. Clerk (Authentication)
+
+Clerk handles all user authentication and session management.
+
+Email/password & OAuth login options
+
+Secure sessions with middleware
+
+Role-based access control
+
+Example: Only logged-in users can create or view notes.
+```
+
+### Inngest (Event-driven jobs)
+
+```
+
+Inngest is used for reliable background tasks and workflows.
+
+Handles async processes (e.g., notifications, scheduled jobs)
+
+Event-driven architecture integrated with Next.js API routes
+
+Example: When a new user signs up, an Inngest function initializes their profile.
+```
+
+### Neon Database + Prisma (Data layer)
+
+```
+
+Neon provides a serverless PostgreSQL database, while Prisma simplifies database access.
+
+Prisma ORM for type-safe queries
+
+Neon for branching, autoscaling, and reliability
+
+Easy migrations with Prisma CLI
+
+Example: User data, notes, and app records are modeled with Prisma and stored in Neon DB.
+```
+
+### shadcn/ui (UI Components)
+```
+
+shadcn/ui
+ provides pre-built, accessible, and themeable components.
+
+TailwindCSS powered
+
+Consistent design system
+
+Used for forms, modals, buttons, navigation
+
+Example: Login forms and dashboard UI are built using shadcn/ui components.
+```
+
+### ⚙️ Setup Instructions
+```
+1. Clone the repository
+git clone https://github.com/your-username/your-project.git
+cd your-project
+
+```
+### 2. Install dependencies
+
+```
+npm install
+```
+
+
 ### Make sure to create a `.env` file with following variables -
 
 ```
