@@ -92,10 +92,11 @@ Example: Login forms and dashboard UI are built using shadcn/ui components.
 ```
 
 ### ⚙️ Setup Instructions
+
+#### 1. Clone the repository
 ```
-1. Clone the repository
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/Sumit-Kushwaha62/AI-Career-Coach.git
+cd AI-Career-Coach
 
 ```
 ### 2. Install dependencies
