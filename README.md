@@ -1,35 +1,35 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI 🔥🔥
+## A modern full-stack web application built with Next.js, featuring Clerk authentication, Inngest for background jobs, Neon Postgres database for scalable data storage, Prisma ORM for database access, and shadcn/ui for a polished UI. 🔥🔥
 
 
 ### Features:
 
 ```
-🔐 Authentication & Authorization with Clerk
+- 🔐 Authentication & Authorization with Clerk
 
-⚡ Event-driven workflows & background jobs using Inngest
+- ⚡ Event-driven workflows & background jobs using Inngest
 
-🗄️ Scalable & serverless PostgreSQL database with Neon
+- 🗄️ Scalable & serverless PostgreSQL database with Neon
 
-🛠️ Database modeling & migrations with Prisma ORM
+- 🛠️ Database modeling & migrations with Prisma ORM
 
-🎨 Beautiful and accessible UI components via shadcn/ui + TailwindCSS
+- 🎨 Beautiful and accessible UI components via shadcn/ui + TailwindCSS
 
-🌐 Deployed on Vercel for fast, reliable hosting
+- 🌐 Deployed on Vercel for fast, reliable hosting
 ```
 
 
 ### Tech Stack
 ```
 
-Frontend: Next.js, React, TailwindCSS, shadcn/ui
+- Frontend: Next.js, React, TailwindCSS, shadcn/ui
 
-Backend: Next.js API routes, Inngest event handlers
+- Backend: Next.js API routes, Inngest event handlers
 
-Database: Neon (Serverless PostgreSQL) + Prisma ORM
+- Database: Neon (Serverless PostgreSQL) + Prisma ORM
 
-Authentication: Clerk (User sign-in, sign-up, session management)
+- Authentication: Clerk (User sign-in, sign-up, session management)
 
-Hosting: Vercel
+- Hosting: Vercel
 
 ```
 
@@ -52,43 +52,43 @@ Example: Only logged-in users can create or view notes.
 
 ```
 
-Inngest is used for reliable background tasks and workflows.
+- Inngest is used for reliable background tasks and workflows.
 
-Handles async processes (e.g., notifications, scheduled jobs)
+- Handles async processes (e.g., notifications, scheduled jobs)
 
-Event-driven architecture integrated with Next.js API routes
+- Event-driven architecture integrated with Next.js API routes
 
-Example: When a new user signs up, an Inngest function initializes their profile.
+- Example: When a new user signs up, an Inngest function initializes their profile.
 ```
 
 ### Neon Database + Prisma (Data layer)
 
 ```
 
-Neon provides a serverless PostgreSQL database, while Prisma simplifies database access.
+- Neon provides a serverless PostgreSQL database, while Prisma simplifies database access.
 
-Prisma ORM for type-safe queries
+- Prisma ORM for type-safe queries
 
-Neon for branching, autoscaling, and reliability
+- Neon for branching, autoscaling, and reliability
 
-Easy migrations with Prisma CLI
+- Easy migrations with Prisma CLI
 
-Example: User data, notes, and app records are modeled with Prisma and stored in Neon DB.
+- Example: User data, notes, and app records are modeled with Prisma and stored in Neon DB.
 ```
 
 ### shadcn/ui (UI Components)
 ```
 
-shadcn/ui
+- shadcn/ui
  provides pre-built, accessible, and themeable components.
 
-TailwindCSS powered
+- TailwindCSS powered
 
-Consistent design system
+- Consistent design system
 
-Used for forms, modals, buttons, navigation
+- Used for forms, modals, buttons, navigation
 
-Example: Login forms and dashboard UI are built using shadcn/ui components.
+- Example: Login forms and dashboard UI are built using shadcn/ui components.
 ```
 
 ### ⚙️ Setup Instructions
@@ -124,3 +124,5 @@ GEMINI_API_KEY=
 ### 📬 Contact
 For any queries, feedback, or collaboration opportunities, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sumit-kushwaha-83b608357/).
 
+### Live Demo
+[AI-Career-Coach](ai-career-coach-eta-sable.vercel.app).
