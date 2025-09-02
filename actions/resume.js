@@ -93,6 +93,6 @@ export async function improveWithAI({ current, type }) {
     return improvedContent;
   } catch (error) {
     console.error("Error improving content:", error);
-    throw new Error("Failed to improve content");
+    throw new Error("Failed to improve content. Gemini API Key Limit Cross");
   }
 }
