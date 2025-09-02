@@ -37,15 +37,15 @@
 ```
 1. Clerk (Authentication)
 
-Clerk handles all user authentication and session management.
+-Clerk handles all user authentication and session management.
 
-Email/password & OAuth login options
+-Email/password & OAuth login options
 
-Secure sessions with middleware
+-Secure sessions with middleware
 
-Role-based access control
+-Role-based access control
 
-Example: Only logged-in users can create or view notes.
+-Example: Only logged-in users can create or view notes.
 ```
 
 ### Inngest (Event-driven jobs)
