@@ -124,3 +124,7 @@ For any queries, feedback, or collaboration opportunities, feel free to connect 
 
 ### Live Demo
 [AI-Career-Coach](https://ai-career-coach-eta-sable.vercel.app/).
+
+### Screenshot
+
+![App Screenshot](/images/screenshot.png)
