@@ -127,4 +127,7 @@ For any queries, feedback, or collaboration opportunities, feel free to connect 
 
 ### Screenshot
 
-![App Screenshot](/images/screenshot.png)
+![App Screenshot](https://github.com/Sumit-Kushwaha62/AI-Career-Coach/blob/main/assets/Screenshot001.png?raw=true)<br>
+![App Screenshot](https://github.com/Sumit-Kushwaha62/AI-Career-Coach/blob/main/assets/Screenshot02.png?raw=true)<br>
+![App Screenshot](https://github.com/Sumit-Kushwaha62/AI-Career-Coach/blob/main/assets/Screenshot03.png?raw=true)<br>
+![App Screenshot](https://github.com/Sumit-Kushwaha62/AI-Career-Coach/blob/main/assets/Screenshot04.png?raw=true)
