@@ -101,7 +101,6 @@ export const metadata = {
 
 
 'use client';
-
 import { ClerkProvider } from '@clerk/nextjs';
 import { ThemeProvider } from 'next-themes';
 import { dark } from '@clerk/themes';

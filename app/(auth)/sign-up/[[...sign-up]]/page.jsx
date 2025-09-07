@@ -1,24 +1,4 @@
-// "use client";
-
-// import { SignUp } from "@clerk/nextjs";
-
-// export default function Page() {
-//   return <SignUp />;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
 'use client';
-
 import { SignUp } from '@clerk/nextjs';
 import AuthLayout from '../layouts/AuthLayout'; // Adjust path if needed
 
@@ -33,3 +13,12 @@ export default function SignUpPage() {
     </AuthLayout>
   );
 }
+
+
+// "use client";
+
+// import { SignUp } from "@clerk/nextjs";
+
+// export default function Page() {
+//   return <SignUp />;
+// }
