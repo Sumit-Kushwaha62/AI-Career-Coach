@@ -12,7 +12,6 @@ export const metadata = {
   title: "AI Career Coach",
   description: "",
 };
-
 // export default function RootLayout({ children }) {
 //   return (
 //     <ClerkProvider
@@ -51,12 +50,6 @@ export const metadata = {
 
 
 
-
-
-
-
-
-
 // export default function RootLayout({ children }) {
 //   return (
 //     <html lang="en" suppressHydrationWarning>
@@ -86,20 +79,6 @@ export const metadata = {
 //     </html>
 //   );
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 'use client';
 import { ClerkProvider } from '@clerk/nextjs';
 import { ThemeProvider } from 'next-themes';
