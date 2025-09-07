@@ -1,120 +1,18 @@
-'use client';
+"use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import { ThemeProvider } from "next-themes";
+import { Toaster } from "sonner";
+import Header from "@/components/header";
+import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
-import { Toaster } from "react-hot-toast";
-import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <title>AI Career Coach</title>
-        <link rel="icon" href="/logo2.png" sizes="any" />
-      </head>
-      <body className={inter.className}>
-        <ClerkProvider
-          frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API}
-          appearance={{ baseTheme: dark }}
-        >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Header />
-            <main className="min-h-screen">{children}</main>
-            <Toaster richColors />
-            <footer className="bg-muted/50 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by Sumit_Kushwaha</p>
-              </div>
-            </footer>
-          </ThemeProvider>
-        </ClerkProvider>
-      </body>
-    </html>
-  );
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// 'use client';
-// import { Inter } from "next/font/google";
-// import "./globals.css";
-// import { ClerkProvider } from "@clerk/nextjs";
-// import { Toaster } from "sonner";
-// import Header from "@/components/header";
-// import { ThemeProvider } from "@/components/theme-provider";
-// import { dark } from "@clerk/themes";
-
-// const inter = Inter({ subsets: ["latin"] });
-
-// export const metadata = {
-//   title: "AI Career Coach",
-//   description: "",
-// };
-
-// import { ClerkProvider } from '@clerk/nextjs';
-// import { ThemeProvider } from 'next-themes';
-// import { dark } from '@clerk/themes';
-// import { Toaster } from 'react-hot-toast';
-// import Header from '../components/Header'; // adjust path if needed
-// import { inter } from '../fonts'; // your font import
-
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en" suppressHydrationWarning>
-//       <head>
-//         <link rel="icon" href="/logo2.png" sizes="any" />
-//       </head>
-//       <body className={`${inter.className}`}>
-//         <ClerkProvider
-//           frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API} // <- added
-//           appearance={{ baseTheme: dark }}
-//         >
-//           <ThemeProvider
-//             attribute="class"
-//             defaultTheme="dark"
-//             enableSystem
-//             disableTransitionOnChange
-//           >
-//             <Header />
-//             <main className="min-h-screen">{children}</main>
-//             <Toaster richColors />
-//             <footer className="bg-muted/50 py-12">
-//               <div className="container mx-auto px-4 text-center text-gray-200">
-//                 <p>Made with 💗 by Sumit_Kushwaha</p>
-//               </div>
-//             </footer>
-//           </ThemeProvider>
-//         </ClerkProvider>
-//       </body>
-//     </html>
-//   );
-// }
-
-
-
-
-
-
-
-
+export const metadata = {
+  title: "AI Career Coach",
+  description: "",
+};
 
 
 
@@ -157,32 +55,32 @@ export default function RootLayout({ children }) {
 
 
 
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en" suppressHydrationWarning>
-//       <head>
-//         <link rel="icon" href="/logo2.png" sizes="any" />
-//       </head>
-//       <body className={`${inter.className}`}>
-//         <ClerkProvider appearance={{ baseTheme: dark }}>
-//           <ThemeProvider
-//             attribute="class"
-//             defaultTheme="dark"
-//             enableSystem
-//             disableTransitionOnChange
-//           >
-//             <Header />
-//             <main className="min-h-screen">{children}</main>
-//             <Toaster richColors />
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/logo2.png" sizes="any" />
+      </head>
+      <body className={`${inter.className}`}>
+        <ClerkProvider appearance={{ baseTheme: dark }}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="min-h-screen">{children}</main>
+            <Toaster richColors />
 
-//             <footer className="bg-muted/50 py-12">
-//               <div className="container mx-auto px-4 text-center text-gray-200">
-//                 <p>Made with 💗 by Sumit_Kushwaha</p>
-//               </div>
-//             </footer>
-//           </ThemeProvider>
-//         </ClerkProvider>
-//       </body>
-//     </html>
-//   );
-// }
+            <footer className="bg-muted/50 py-12">
+              <div className="container mx-auto px-4 text-center text-gray-200">
+                <p>Made with 💗 by Sumit_Kushwaha</p>
+              </div>
+            </footer>
+          </ThemeProvider>
+        </ClerkProvider>
+      </body>
+    </html>
+  );
+}
