@@ -1,7 +1,35 @@
-"use client";
+// "use client";
 
-import { SignUp } from "@clerk/nextjs";
+// import { SignUp } from "@clerk/nextjs";
 
-export default function Page() {
-  return <SignUp />;
+// export default function Page() {
+//   return <SignUp />;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+'use client';
+
+import { SignUp } from '@clerk/nextjs';
+import AuthLayout from '../layouts/AuthLayout'; // Adjust path if needed
+
+export default function SignUpPage() {
+  return (
+    <AuthLayout>
+      <SignUp
+        path="/sign-up"       // Must match your Clerk dev component path
+        routing="path"        // Use app route instead of redirecting to /
+        signInUrl="/sign-in"  // Link to sign-in page
+      />
+    </AuthLayout>
+  );
 }
