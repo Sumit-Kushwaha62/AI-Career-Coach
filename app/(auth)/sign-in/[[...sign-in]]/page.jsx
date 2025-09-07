@@ -1,6 +1,6 @@
 'use client';
 import { SignIn } from '@clerk/nextjs';
-import AuthLayout from '../layouts/AuthLayout'; // Adjust path if needed
+import AuthLayout from '../layout'; // Correct relative path
 
 export default function SignInPage() {
   return (
