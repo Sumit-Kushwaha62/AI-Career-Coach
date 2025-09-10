@@ -123,7 +123,7 @@ GEMINI_API_KEY=
 For any queries, feedback, or collaboration opportunities, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sumit-kushwaha-83b608357/).
 
 ### Live Demo
-[AI-Career-Coach](https://ai-career-coach-eta-sable.vercel.app/).
+[AI-Career-Coach](https://ai-career-coach-ghcp.vercel.app/).
 
 ### Screenshot
 
